@@ -1,48 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAGLENE</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">SHOP ALL</a></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">DRINK WARE</a></li>
-                <li class="logo"><a href="#">NAGLENE</a></li>
-                <li><a href="#">TECHNOLOGY</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li class="user-icon">&#128100;</li>
-                <li class="cart-icon">&#128722;</li>
-            </ul>
-        </nav>
-    </header>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NAGLENE</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">SHOP ALL</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">DRINK WARE</a></li>
+                    <li class="logo"><a href="#">NAGLENE</a></li>
+                    <li><a href="#">TECHNOLOGY</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li>
+                        <button class="menu-btn">
+                            <span class="icon">
+                                <svg viewBox="0 0 175 80" width="40" height="40">
+                                    <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                                    <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                                    <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                                </svg>
+                            </span>
+                            <span class="text">MENU</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="hero-text">
+                <p>drink brilliantly</p>
+                <h1>Bet your bottle <br> can't do this</h1>
+                <p>Discover the science of Naglene technology for a germ-free and stink-free bottle</p>
+                <button class="cta">
+                    <span>SHOP NOW</span>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+            <div class="hero-image">
+                <img class="background" src="https://c8.alamy.com/comp/BGCKJN/blue-water-bottle-isolated-BGCKJN.jpg" alt="Background">
+                <div class="circle"></div>
+                <img class="bottle" src="https://c8.alamy.com/comp/BGCKJN/blue-water-bottle-isolated-BGCKJN.jpg" alt="Nalgene Bottle">
+            </div>
+        </section>
+        <section class="info-section">
+            <div class="info-text">
+            </div>
+            <div class="info-image">
+                <img src="https://source.unsplash.com/random/600x400?bottle" alt="Featured Bottle">
+            </div>
+        </section>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
     
-    <section class="hero">
-        <div class="hero-text">
-            <p>drink brilliantly</p>
-            <h1>Bet your bottle <br> can’t do this</h1>
-            <p>Discover the science of Naglene technology for a germ-free and stink-free bottle</p>
-            <button class="cta">
-                <span>SHOP NOW</span>
-                <svg width="15px" height="10px" viewBox="0 0 13 10">
-                    <path d="M1,5 L11,5"></path>
-                    <polyline points="8 1 12 5 8 9"></polyline>
-                </svg>
-            </button>
-        </div>
-        <div class="hero-image">
-            <img src="1000042142-removebg-preview.png" alt="Nalgene Bottle">
-        </div>
-    </section>
-</body>
-</html>
+                
+                <div class="products-wrapper">
+                    <div class="product-card">
+                        <div class="heart-container" title="Like">
+                            <input type="checkbox" class="checkbox" id="heart-1">
+                            <div class="svg-container">
+                                <svg viewBox="0 0 24 24" class="svg-outline" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" class="svg-filled" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                                </svg>
+                                <svg class="svg-celebrate" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="10,10 20,20"></polygon>
+                                    <polygon points="10,50 20,50"></polygon>
+                                    <polygon points="20,80 30,70"></polygon>
+                                    <polygon points="90,10 80,20"></polygon>
+                                    <polygon points="90,50 80,50"></polygon>
+                                    <polygon points="80,80 70,70"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://source.unsplash.com/random/150x200?red,bottle" alt="Bottle 1">
+                        <p>32oz Wide Mouth Sustain Water Bottle – Marmalade</p>
+                        <p>$16.99</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="heart-container" title="Like">
+                            <input type="checkbox" class="checkbox" id="heart-2">
+                            <div class="svg-container">
+                                <svg viewBox="0 0 24 24" class="svg-outline" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" class="svg-filled" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                                </svg>
+                                <svg class="svg-celebrate" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="10,10 20,20"></polygon>
+                                    <polygon points="10,50 20,50"></polygon>
+                                    <polygon points="20,80 30,70"></polygon>
+                                    <polygon points="90,10 80,20"></polygon>
+                                    <polygon points="90,50 80,50"></polygon>
+                                    <polygon points="80,80 70,70"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://source.unsplash.com/random/150x200?blue,bottle" alt="Bottle 2">
+                        <p>32oz Wide Mouth Large Logo</p>
+                        <p>$16.99</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="heart-container" title="Like">
+                            <input type="checkbox" class="checkbox" id="heart-3">
+                            <div class="svg-container">
+                                <svg viewBox="0 0 24 24" class="svg-outline" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" class="svg-filled" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z"></path>
+                                </svg>
+                                <svg class="svg-celebrate" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="10,10 20,20"></polygon>
+                                    <polygon points="10,50 20,50"></polygon>
+                                    <polygon points="20,80 30,70"></polygon>
+                                    <polygon points="90,10 80,20"></polygon>
+                                    <polygon points="90,50 80,50"></polygon>
+                                    <polygon points="80,80 70,70"></polygon>
+                                </svg>
+                            </div>
+                        </div>
+                        <img src="https://source.unsplash.com/random/150x200?green,bottle" alt="Bottle 3">
+                        <p>32oz Wide Mouth Sustain Water Bottle – Indigo</p>
+                        <p>$16.99</p>
+                    </div>
+                </div>
+                
+                <button class="nav-button right-button">
+                    <div class="button-box">
+                        <span class="button-elem">
+                            <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M46 20.038c0-.7-.3-1.5-.8-2.1l-16-17c-1.1-1-3.2-1.4-4.4-.3-1.2 1.1-1.2 3.3 0 4.4l11.3 11.9H3c-1.7 0-3 1.3-3 3s1.3 3 3 3h33.1l-11.3 11.9c-1 1-1.2 3.3 0 4.4 1.2 1.1 3.3.8 4.4-.3l16-17c.5-.5.8-1.1.8-1.9z"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </button>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+    </html>
     
+
     
- 
+
 
     
